@@ -10,8 +10,8 @@ readme = "README.md"
 keywords = ["leptonica", "tesseract", "ocr", "image"]
 license = "MIT"
 [dependencies]
-tesseract-sys = "0.5.5"
-leptonica-plumbing = "0.3.0"
+tesseract-sys = { git = "https://github.com/vim-zz/tesseract-sys", branch = "fix_macos" }
+leptonica-plumbing = { git = "https://github.com/vim-zz/leptonica-plumbing", branch = "fix_macos" }
 thiserror = "1.0"
 
 [dev-dependencies]
